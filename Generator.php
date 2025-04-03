@@ -32,7 +32,7 @@ use app\Models\\$modelName;
  *
  * @package app\Controllers
  */
-class {$controllerName}Controller
+class {$controllerName}
 {
     /**
      * @var $modelName Instance of the corresponding model.
