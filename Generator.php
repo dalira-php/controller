@@ -14,7 +14,7 @@ $controllerContent = <<<PHP
 namespace app\Controllers;
 
 use config\DBConnection;
-use app\Models\$modelName;
+use app\Models\\$modelName;
 
 class {$controllerName}Controller
 {
