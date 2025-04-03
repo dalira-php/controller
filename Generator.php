@@ -22,10 +22,10 @@ $controllerContent = <<<PHP
 namespace app\Controllers;
 
 use config\DBConnection;
-use app\Models\$modelName;
+use app\Models\\$modelName;
 
 /**
- * Class {$controllerName}Controller
+ * Class {$controllerName}
  *
  * This class serves as a controller for handling requests related to the '$modelName' model.
  * It provides an interface between the application's logic and the database layer.
