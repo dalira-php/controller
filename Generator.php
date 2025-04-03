@@ -8,6 +8,14 @@ if ($argc < 3) {
 $controllerName = ucfirst($argv[1]);
 $modelName = ucfirst($argv[2]);
 
+// Check if the model file exists
+$modelPath = getcwd() . "/app/Models/{$modelName}.php";
+
+if (!file_exists($modelPath)) {
+    echo "Error: The model '{$modelName}' does not exist in app/Models.\n";
+    exit(1);
+}
+
 $controllerContent = <<<PHP
 <?php
 
