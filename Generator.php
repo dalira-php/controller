@@ -1,7 +1,7 @@
 <?php
 
 if ($argc < 3) {
-    echo "Usage: composer create-controller CONTROLLER_NAME MODEL_NAME\n";
+    echo "Usage: composer create-controller ControllerName ModelName\n";
     exit(1);
 }
 
@@ -18,12 +18,12 @@ use app\Models\$modelName;
 
 class {$controllerName}Controller
 {
-    private \${$modelName};
+    private \$$modelName;
 
     public function __construct()
     {
         \$DBConnection = new DBConnection();
-        \$this->{$modelName} = new {$modelName}(\$DBConnection);
+        \$this->$modelName = new $modelName(\$DBConnection);
     }
 }
 PHP;
