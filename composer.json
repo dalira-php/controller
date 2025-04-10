@@ -1,6 +1,6 @@
 {
-	"name": "dalira-php/controller",
-	"description": "Dalira PHP controller generator library",
+	"name": "dalira/controller",
+	"description": "Dalira controller generator library",
 	"type": "library",
 	"license": "MIT",
 	"require": {
