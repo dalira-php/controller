@@ -1,5 +1,5 @@
 {
-	"name": "dalira/controller",
+	"name": "dalira-php/controller",
 	"description": "Dalira controller generator library",
 	"type": "library",
 	"license": "MIT",
